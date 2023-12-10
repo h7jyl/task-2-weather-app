@@ -8,7 +8,7 @@ let wind = document.querySelector('#wind');
 let cntry = document.querySelector('#country')
 
 // this is the api key
-const apiKey = "my-api-key";
+const apiKey = "5215ef6a1af1a2d55eb06507c0da386a";
 
 // function to convert fahrenheit to celsius
 const fToC = (f) => {
