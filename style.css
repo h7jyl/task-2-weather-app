@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    /* background-color: blue; */
+    background-image: url("./img.jpg");
+    background-attachment: fixed;
+}
+
+.box {
+    height: 500px;
+    width: 800px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin: 70px 20px 20px 250px;
+}
+
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px 50px 100px;
+}
+
+input[type="text"] {
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-right: 10px;
+    height: 45px;
+    width: 400px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #209a24;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #7abc7d;
+    color: green
+}
+
+.main-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #001F3F;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1000px;
+    display: flex;
+    font-size: x-large;
+    font-weight: 800;
+    height: 300px;
+    padding: 50px;
+    border-radius: 14px;
+    /* to add a slight depth or elevation effect to the wrapper class element on the page. */
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    color: #444444;
+}
+
+.wrapper span {
+    color: rgb(71, 71, 119);
+}
+
+.wrapper h2 {
+    margin: 10px;
+}
